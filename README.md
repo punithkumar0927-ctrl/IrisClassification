@@ -7,6 +7,7 @@ Iris Flower Classification is a beginner-friendly machine-learning classificatio
 The objective is to build a model that classifies Iris flowers into one of three species based on their sepal and petal measurements. This project demonstrates the complete basic machine-learning workflow, including data exploration, visualization, preprocessing, model training, evaluation, and prediction.
 
 🎯 Objectives
+
 Understand the structure of the Iris dataset.
 
 Explore and preprocess the data.
@@ -22,6 +23,7 @@ Evaluate model performance.
 Predict the species of a new Iris flower.
 
 📊 Dataset
+
 The Iris dataset contains 150 flower samples belonging to three species:
 
 Iris-setosa
@@ -33,15 +35,22 @@ Iris-virginica
 Each species contains 50 samples.
 
 Features
+
 Feature	Description
 Sepal Length	Length of the sepal
 Sepal Width	Width of the sepal
 Petal Length	Length of the petal
 Petal Width	Width of the petal
+
+
 Target
+
 text
 Species
+
+
 🛠️ Technologies Used
+
 Python
 
 Pandas
@@ -59,6 +68,7 @@ Google Colab
 Jupyter Notebook
 
 🔄 Machine-Learning Workflow
+
 text
 Load Dataset
      ↓
@@ -77,7 +87,10 @@ Train Classification Model
 Evaluate Model
      ↓
 Predict Flower Species
+
+
 🤖 Machine-Learning Model
+
 The project uses K-Nearest Neighbors (KNN) as the primary classification algorithm.
 
 KNN classifies a new flower by comparing its measurements with nearby samples from the training dataset. The model learns from the training data and predicts the species of flowers in the testing data.
@@ -167,6 +180,8 @@ import matplotlib.pyplot as plt
 
 sns.pairplot(data, hue="Species")
 plt.show()
+
+
 📁 Project Structure
 text
 Iris-Classification/
